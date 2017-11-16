@@ -9,7 +9,8 @@ Author URI: #
 License: MIT
 */
 
-require_once "includes/ism-menu-page.php";
+require_once __DIR__ . "/src/autoload.php";
+require_once __DIR__ . "/includes/ism-menu-page.php";
 
 if (!function_exists("ism_image_downloader_get_template")) {
 
